@@ -1,0 +1,6 @@
+n = (input("Introduce un numero entero:"))
+m = (input("Introduce otro numero entero:"))
+c = float(n) / float(m)
+r = float(n) % float(m)
+print("El cociente es:", c)
+print("El resto es:", r)
