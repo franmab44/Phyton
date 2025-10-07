@@ -1,0 +1,6 @@
+inversion = float (input("Introduzca la cantidad que desea invertir: "))
+porcentaje= float (input("Introduzca el interes anual en %: "))
+age= float (input("Introduzca el numero de años: "))
+inter=(porcentaje/100)
+capitalobt = (inversion+((inversion*inter)*age))
+print(f"El capital que se ha obtenido es de: {capitalobt}")
