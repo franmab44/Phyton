@@ -1,0 +1,6 @@
+payasos = float(112)
+muñecas = float(75)
+numpayasos = int(input("Introduzca el numero de payasos que desea comprar: "))
+nummuñecas = int(input("Introduzca el numero de muñecas que desea comprar:"))
+pesototal= (payasos*numpayasos)+(muñecas*nummuñecas)
+print(f"El peso total del paquete es de: {pesototal} gramos")
