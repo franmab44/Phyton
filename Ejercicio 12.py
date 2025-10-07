@@ -1,0 +1,8 @@
+Pan = float(3.49)
+Descuento =float (60/100)
+Contar = float (input("Introduce numero de barras que no son de día:"))
+Contar2 = float(input("Introduce numero de barras que son de día:"))
+Pananterior = round((Pan-(Pan * Descuento)),2)
+print(f"El precio de las barras de pan que no son de día es de: {Pananterior}€")
+total = (Pananterior*Contar)+(Pan*Contar2)
+print(f"El precio total de la compra es de: {total}€")
