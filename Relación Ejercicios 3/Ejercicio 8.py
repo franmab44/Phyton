@@ -16,4 +16,4 @@ cantidaddinero = Valor * puntuacion
 
 print("Puntuación:", puntuacion)
 print("Rendimiento:", nivel)
-print("Cantidad a recibir:", cantidad_dinero, "€")
+print("Cantidad a recibir:", cantidaddinero, "€")
